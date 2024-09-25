@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Desaparece</title>
+</head>
+<body>
+    <div id="mensagem">Passe o mouse sobre esta mensagem para que ela desapareça.</div>
+
+    <script>
+        const mensagem = document.getElementById('mensagem');
+
+        mensagem.addEventListener('mouseover', function() {
+            mensagem.style.display = 'none';
+        });
+    </script>
